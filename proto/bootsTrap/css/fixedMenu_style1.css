@@ -1,0 +1,394 @@
+#web {
+    position: relative;
+    width: 1349px;
+    height: auto;
+}
+
+body{
+    padding:0;
+    margin:0
+}
+
+#contenedor {
+    width: 1349px;
+    height: 1179.23px;
+}
+#main-header{
+    width: 1349px;
+    height: 173.89px;
+
+    background-color: #EFEFEF;
+}
+#central{
+    width: 1250px;
+    height: 127.89px;
+
+    margin: 0 49px 0 50px;
+
+    background-color: #EFEFEF;
+}
+
+#logo{
+    width: 366px;
+    height: 127.89px;
+
+    float: left;
+    display: block;
+
+    background-color: #FFFFFF;
+}
+
+#empresa{
+
+    width: 165px;
+    height: 28px;
+
+    margin: 20px 100px 0 0;
+
+    float: right;
+    display: block;
+
+}
+
+#redes{
+
+    width: 120px;
+    height: 30px;
+
+    margin: 40px 100px 0 0;
+
+
+    float: right;
+    display: block;
+    clear: right;
+
+    background-color: #FFFFFF;
+}
+
+
+nav{
+
+    height: 30px;
+
+
+/*    border-top: 1px solid #AD4100;
+    border-bottom: 1px solid #AD4100;*/
+
+    /*padding:0 0 10px 0;*/
+
+    background-color: #0072c6;
+
+    font: 16px Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+
+}
+
+nav ul {
+    margin: 0 0 0 10px;
+    padding: 5px 0 0 5px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    color: #999999;
+}
+
+nav li a{
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+/*nav ul li a:hover{
+    border-radius: 5px;
+
+    background-color: #EB5A06;
+    color: #999999;
+
+}*/
+
+nav ul li a:visited{
+    color: #FFFFFF;
+}
+
+/*nav ul li a:visited img{
+    border: 0;
+}*/
+
+#eliminar:hover {
+    border-radius: 5px;
+
+    background-color: #EB5A06;
+    color: #999999;
+}
+
+/*INSERTANDO CODIGO DAAP*/
+
+#body {
+    position: relative;
+    width: 1140px;
+    height:auto;
+    margin: 5px 0 5px 0;
+    left: 50%;
+    margin-left: -570px;
+}
+#content{
+
+    width: 715px;
+    height: auto;
+
+    /*background: #EFEFEF;*/
+    /*Codigo Pablo*/
+    background: #e2e0e0;
+    /*-------------------*/
+    float: left;
+    border-style: inset;
+
+
+}
+
+.article{
+    position: relative; 
+    width: 665px;
+    height: auto;
+    /*codigoPablo*/
+    border-radius: 8px;
+    /*---------------*/
+    background: #FFFFFF;
+    margin: 10px;
+    padding-right: 30px;
+
+
+}
+#slider {
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,5);    
+    -moz-box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+    -o-box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+    box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+}
+
+.contenido{
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,5);    
+    -moz-box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+    -o-box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+    box-shadow: 1px 1px 10px rgba(0,0,0,5); 
+}
+
+.contenido p{
+
+    font-size: 14px;
+
+    /*padding: 40px;*/
+}
+
+#formulario{
+    background-color: #d2d2d2;
+    margin-top: -20px;
+    padding: 40px;
+
+    -webkit-box-shadow: inset 0 1px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 1px 5px rgba(0,0,0,0.5);
+    -o-box-shadow: inset 0 1px 5px rgba(0,0,0,0.5);
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.5);
+}
+
+#formulario form{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+textArea{
+    height: 100px;
+    width: 400px;
+}
+
+.campo, textArea{
+    background: #eee;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.campo:focus, textArea:focus{
+    background: #fff;
+    outline: none;
+
+    -webkit-box-shadow: 0 0 10px #24607f;
+    -moz-box-shadow: 0 0 10px #24607f;
+    -o-box-shadow: 0 0 10px #24607f;
+    box-shadow: 0 0 10px #24607f;
+}
+
+.boton{
+    background: #ff8a00;
+    border:0;
+    color: #fff;
+    margin-left: 125px;
+    padding: 10px;
+    width: 150px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.boton:hover{
+    background-color: #ff5105;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+
+#sidebar{
+    position: relative;
+    width: 401px;
+    height: auto;
+    margin: 0 0 5px 5px;
+    background: #EFEFEF;
+    float: right;
+    border-style: inset;
+
+
+}
+
+.module{
+    position: relative;
+    width: 351px ;
+    height: 210px;
+    background: #D2D2D2;
+    margin: 10px;
+    padding-right: 30px;
+
+
+}
+
+
+/*FINALIZADO CODIGO DAAP*/
+
+footer{
+    width: 1349px;
+    height: 107px;  
+
+    border-top: 1px #f2f2f2;
+    background-color: #EFEFEF;
+    clear: both;
+
+
+
+}
+
+#centralFooter{
+    width: 1250px;
+    height: 106px;
+
+    margin: 0 49px 0 50px;
+
+    max-width: 1250px;
+
+    display:block;
+
+    background-color: #EFEFEF;
+    color: #999999;
+
+
+}
+
+#nav-footer{
+    width: 1115.125px;
+    height: 35px;
+
+    padding-top: 3px;
+
+    border:0;
+
+    background-color: #EFEFEF;
+    /*background-color: #ff5105;*/
+}
+
+#nav-footer ul {
+    position: relative;
+    margin: 0 116.93px 0 116.93px;
+    padding: 5px 0 0 0;
+
+    text-align: center;
+
+
+}
+
+#nav-footer li{
+    list-style: none;
+    display: inline;
+    color: #666666;
+
+
+
+}
+#nav-footer li a{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+#nav-footer ul li a:hover{
+    background-color: #ff5105;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#drFooter {
+    width: 351px;
+    height: 20px;
+
+    float: left;
+    margin: 12px 16px 6px 0;
+    display: inline-block;
+
+    background-color: #EFEFEF;
+
+    font-size: 10px;
+}
+
+#privacidadFooter {
+    width: 205px;
+    height: 20px;
+
+    float:right;
+    margin: 12px 0px 6px 0;
+    display:inline-block;
+
+    background-color: #EFEFEF;
+
+    font-size: 10px;
+    text-align: right;
+
+
+}
+
+#nav-footer ul li a:visited{
+    color:#666666;
+}
+
+#nav-footer ul li a:visited img{
+    border:0;
+}
